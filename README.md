@@ -29,13 +29,28 @@ The project uses two CSV files:
 - `results/`: Exported charts and analysis outputs
 - `requirements.txt`: Python dependencies
 
-## Key Analysis
-- Matches by season
+## Key Findings
+
+Analysis of the IPL dataset produced the following findings:
+
+- **Dataset size:** Analyzed 1,095 match records and 260,920 ball-by-ball delivery records.
+- **Team performance:** Mumbai Indians recorded the most wins in this dataset, with 144, followed by Chennai Super Kings with 138.
+- **Batting performance:** V Kohli topped the recorded run-scoring list with 8,014 runs, followed by S Dhawan with 6,769.
+- **Toss decisions:** Teams chose to field 704 times and bat 391 times, showing a preference for fielding after winning the toss in this dataset.
+- **Player awards:** AB de Villiers received the most Player of the Match awards in the dataset, with 25.
+
+### Visualizations
+
+The project includes charts for:
+- Number of matches by season
 - Team wins
 - Top run scorers
 - Top wicket takers
-- Toss decision patterns
-- Toss winner versus match winner
+- Toss decisions
+
+### Limitations
+
+The findings depend on the dataset's coverage, column definitions, and data quality. They describe the records analyzed and should not automatically be interpreted as current all-time IPL statistics.
 
 ## How to Run
 1. Clone this repository.
